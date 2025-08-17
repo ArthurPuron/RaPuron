@@ -1,0 +1,120 @@
+index.html
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rachel Purón - Música para Casar</title>
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/your-fontawesome-kit-id.js" crossorigin="anonymous"></script> </head>
+<body>
+
+    <header class="main-header">
+        <nav class="main-nav">
+            <a href="#hero" class="nav-logo">
+                <img src="assets/logo.png" alt="Logo Rachel Purón">
+            </a>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#repertorio">Repertório</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="hero">
+            <div class="video-background">
+                <video autoplay loop muted playsinline poster="assets/poster-image.jpg">
+                    <source src="assets/video-hero.mp4" type="video/mp4">
+                    Seu navegador não suporta vídeos em HTML5.
+                </video>
+            </div>
+            <div class="hero-content">
+                <h1>A melodia que eterniza o seu "sim".</h1>
+                <p>Música ao vivo com alma e sofisticação para o seu casamento.</p>
+                <a href="#contato" class="cta-button">Solicite um Orçamento</a>
+            </div>
+        </section>
+
+        <section id="sobre" class="content-section">
+            <div class="container">
+                <div class="about-content">
+                    <div class="about-image">
+                        <img src="assets/rachel-perfil.jpg" alt="Foto de Rachel Purón">
+                    </div>
+                    <div class="about-text">
+                        <h2 class="section-title">A Voz da Sua História de Amor</h2>
+                        <p>Olá, sou Rachel Purón. Desde criança, a música é a minha forma de me conectar com o mundo e com as emoções mais profundas. Para mim, cantar em um casamento não é apenas uma apresentação, é a honra de tecer a trilha sonora para um dos capítulos mais importantes da vida de um casal.</p>
+                        <p>Com uma formação que une o clássico e o contemporâneo, minha missão é traduzir a essência de vocês em cada nota, criando uma atmosfera única e inesquecível, cheia de amor, carinho e dedicação.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="servicos" class="content-section dark-section">
+            <div class="container">
+                <h2 class="section-title">Formações para Cada Momento</h2>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <h3>Cerimônia</h3>
+                        <p>Voz e piano, quarteto de cordas, harpa... formações que emocionam e elevam a solenidade do seu momento.</p>
+                    </div>
+                    <div class="service-card">
+                        <h3>Recepção & Coquetel</h3>
+                        <p>Um repertório versátil com banda completa, trio de jazz ou Bossa Nova para criar o clima perfeito para seus convidados.</p>
+                    </div>
+                    <div class="service-card">
+                        <h3>Festa</h3>
+                        <p>Do pop ao clássico, nosso DJ e banda garantem uma pista de dança animada e inesquecível para celebrar a noite toda.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="repertorio" class="content-section">
+            <div class="container">
+                <h2 class="section-title">Ouça a Emoção</h2>
+                <p class="section-subtitle">Aperte o play e sinta um pouco da magia que podemos criar juntos.</p>
+                <div class="repertorio-grid">
+                    <div class="video-wrapper">
+                        <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="video-wrapper">
+                        <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato" class="content-section dark-section">
+            <div class="container">
+                <h2 class="section-title">Vamos Conversar?</h2>
+                <p class="section-subtitle">Estou ansiosa para conhecer sua história e sonhar com a trilha sonora perfeita para o seu grande dia.</p>
+                <form class="contact-form">
+                    <input type="text" name="name" placeholder="Nome do Casal" required>
+                    <input type="email" name="email" placeholder="Seu Melhor E-mail" required>
+                    <input type="text" name="date" placeholder="Data do Casamento">
+                    <textarea name="message" placeholder="Conte-me um pouco sobre o que vocês sonham..." rows="5"></textarea>
+                    <button type="submit" class="cta-button">Enviar Mensagem</button>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="main-footer">
+        <p>&copy; 2025 Rachel Purón. Todos os direitos reservados.</p>
+        <p>Desenvolvido com ❤️</p>
+    </footer>
+
+</body>
+</html>
